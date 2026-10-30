@@ -1,0 +1,13 @@
+# .NET 빌드 결과물 — 저장소에 올리지 않는다
+bin/
+obj/
+*.user
+.vs/
+
+# SQLite 데이터베이스 파일 — 내 PC에서 만들어지는 데이터라 저장소에 올리지 않는다
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+app/

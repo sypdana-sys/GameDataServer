@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "일반 좀비", "hp": 100, "attack": 20, "speed": 2.0 },
+  { "id": 2, "name": "빠른 좀비", "hp": 60, "attack": 15, "speed": 4.5 },
+  { "id": 3, "name": "탱커 좀비", "hp": 300, "attack": 30, "speed": 1.2 },
+  { "id": 4, "name": "폭발 좀비", "hp": 40, "attack": 80, "speed": 3.0 },
+  { "id": 5, "name": "보스 좀비", "hp": 1000, "attack": 50, "speed": 1.8 }
+]
