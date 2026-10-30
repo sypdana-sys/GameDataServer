@@ -97,7 +97,10 @@ app.MapGet("/monsters", () => new { monsters = LoadAllMonsters(connectionString)
 //        : Results.Ok(found);
 //});
 
-app.Run("http://localhost:5000");
+
+// 바꾼 뒤 — PORT가 없으면(내 PC) 5000, 있으면(Render) 그 번호
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+app.Run($"http://0.0.0.0:{port}");
 
 app.MapGet("/monsters/{id:int}", (int id) =>
 {
